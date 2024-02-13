@@ -11,8 +11,12 @@ Skeleton code for connecting to an 802.1x school wifi network on a system runnin
 
 
 
-Fill out the rest of the information (username, password, SSID name) and move it to:
+5.) Fill out the rest of the information (username, password, SSID name) and move it to:
 
 /etc/NetworkManager/system-connections/"SSIDNAME".nmconnection
+
+6.) sudo chown root:root /etc/NetworkManager/system-connections/SSIDNAME.nmconnection
+    sudo chmod 600 /etc/NetworkManager/system-connections/SSIDNAME.nmconnection
+
 
 Once done, connect to the wifi network using the "nmtui" terminal command.
