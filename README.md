@@ -11,7 +11,7 @@ Skeleton code for connecting to an 802.1x school wifi network on a system runnin
 
 
 
-Fill out the rest of the information (username, password, SSID name, and move it to:
+Fill out the rest of the information (username, password, SSID name) and move it to:
 
 /etc/NetworkManager/system-connections/"SSIDNAME".nmconnection
 
