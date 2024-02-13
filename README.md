@@ -21,5 +21,6 @@ sudo chown root:root /etc/NetworkManager/system-connections/SSIDNAME.nmconnectio
 
 sudo chmod 600 /etc/NetworkManager/system-connections/SSIDNAME.nmconnection
 
+#
 
 Once done, connect to the wifi network using the "nmtui" terminal command.
