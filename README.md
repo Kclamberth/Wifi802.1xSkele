@@ -1,5 +1,5 @@
 # Wifi802.1xSkele
-Skeleton code for connecting to a school wifi network on a system running NetworkManager (most linux distributions).
+Skeleton code for connecting to an 802.1x school wifi network on a system running NetworkManager (most linux distributions).
 
 
 
