@@ -1,0 +1,26 @@
+[wifi-security]
+key-mgmt=wpa-eap
+
+[connection]
+id=<ENTER SSID HERE>
+uuid=<ENTER GENERATED UUID HERE>
+type=wifi
+interface-name=<ENTER WIFI INTERFACE HERE>
+
+[ipv6]
+addr-gen-mode=stable-privacy
+method=auto
+
+[wifi]
+ssid=<ENTER SSID HERE>
+mode=infrastructure
+#security=802-11-wireless-security
+
+[802-1x]
+eap=ttls
+identity=<ENTER WIFI USERNAME HERE>
+phase2-auth=mschapv2
+password=<ENTER WIFI PASSWORD HERE>
+
+[ipv4]
+method=auto
