@@ -17,9 +17,9 @@ Skeleton code for connecting to an 802.1x school wifi network on a system runnin
 
 6.) **Set the correct permissions** on the file with: 
 
-sudo chown root:root /etc/NetworkManager/system-connections/SSIDNAME.nmconnection
+sudo chown root:root /etc/NetworkManager/system-connections/"SSIDNAME".nmconnection
 
-sudo chmod 600 /etc/NetworkManager/system-connections/SSIDNAME.nmconnection
+sudo chmod 600 /etc/NetworkManager/system-connections/"SSIDNAME".nmconnection
 
 #
 
