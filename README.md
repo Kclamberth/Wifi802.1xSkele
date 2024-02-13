@@ -8,10 +8,13 @@ _Note: Ensure you change all the "SSIDNAME" spots in the below instructions to t
 1.) **Download** the enterpriseSkeleton.txt file in this repo.
 
   `wget https://raw.githubusercontent.com/Kclamberth/Wifi802.1xSkele/main/enterpriseSkeleton.txt`
+  
 
 2.) **Name it** `"SSIDNAME".nmconnection`  , and fill out the information inside it. The SSIDNAME will be the wifi you're connecting to.
 
+
 3.) **Generate a UUID** via the  `uuidgen`  command in the terminal, add it to the UUID line in the file.
+
 
 4.) **Get interface name** via the `ip address`  command in the terminal, mine was wlp3s0, yours is probably different, add it to the interface-name line in the file.
 
