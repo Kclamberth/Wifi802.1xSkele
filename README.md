@@ -3,7 +3,7 @@ Skeleton code for connecting to an 802.1x school wifi network on a system runnin
 
 # Instructions
 
-_Note: Ensure you change all the "SSIDNAME" spots in the below instructions._
+_Note: Ensure you change all the "SSIDNAME" spots in the below instructions to the SSID of the wifi you're connecting to._
 
 1.) **Download** the enterpriseSkeleton.txt file in this repo.
 
