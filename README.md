@@ -11,7 +11,7 @@ _Note: Ensure you change all the "SSIDNAME" spots in the below instructions to t
 
 3.) **Generate a UUID** via the  `uuidgen`  command in the terminal, add it to the UUID line in the file.
 
-4.) **Get interface name** via the `ip address`  command in the terminal, mine was wlp3s0 add it to the interface-name line in the file.
+4.) **Get interface name** via the `ip address`  command in the terminal, mine was wlp3s0, yours is probably different, add it to the interface-name line in the file.
 
 
 
