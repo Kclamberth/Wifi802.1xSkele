@@ -3,7 +3,7 @@ Skeleton code for connecting to an 802.1x school wifi network on a system runnin
 #
 1.) **Download** the enterpriseSkeleton.txt file in this repo.
 
-2.) **Name it** `SSIDNAME".nmconnection`  , and fill out the information inside it. The SSIDNAME will be the wifi you're connecting to.
+2.) **Name it** `"SSIDNAME".nmconnection`  , and fill out the information inside it. The SSIDNAME will be the wifi you're connecting to.
 
 3.) **Generate a UUID** via the  `uuidgen`  command in the terminal, add it to the UUID line in the file.
 
