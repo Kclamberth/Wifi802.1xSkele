@@ -34,10 +34,15 @@ _Note: Ensure you change all the "SSIDNAME" spots in the below instructions to t
 `sudo chmod 600 /etc/NetworkManager/system-connections/"SSIDNAME".nmconnection` 
 
 7.) **Restart NetworkManager** 
+
 If you use systemd
+
 `sudo systemctl restart NetworkManager`
+
 OR
+
 if you use openrc
+
 `rc-service NetworkManager restart`
 
 # Connect
